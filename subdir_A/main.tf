@@ -7,6 +7,10 @@ terraform {
   }
 }
 
+module "loop_A" {
+  source = "github.com/Ericwww/loop-tf-module//subdir_B"
+}
+
 variable "subdir_A_value" {
   type = number
 }
