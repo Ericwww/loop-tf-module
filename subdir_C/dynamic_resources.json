@@ -1,0 +1,9 @@
+{
+    "tfcoremock_dynamic_resource": {
+      "attributes": {
+        "my_subdir_C_value": {
+          "type": "string"
+        }
+      }
+    }
+  }
