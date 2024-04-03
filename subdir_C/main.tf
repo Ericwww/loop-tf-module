@@ -7,10 +7,10 @@ terraform {
   }
 }
 
-variable "dynamic_resource_subedir_B_value" {
+variable "subdir_C_value" {
   type = number
 }
 
-resource "tfcoremock_dynamic_resource" "my_resource" {
-  my_subdir_B_value = var.dynamic_resource_subedir_B_value
+resource "tfcoremock_dynamic_resource" "my_dynamic_resource" {
+  my_subdir_C_value = var.subdir_C_value
 }
